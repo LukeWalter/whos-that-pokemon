@@ -5,4 +5,8 @@ export default defineNuxtConfig({
     // prerender index route by default
     '/': { prerender: true },
   },
+  compatibilityDate: '2024-10-17',
+  modules: [ 
+    "@nuxtjs/tailwindcss",
+  ]
 });
